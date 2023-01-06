@@ -5,9 +5,10 @@
 
 
 .primary_button{
-    margin: auto;
+    display: inline-block;
     height: 80px;
-    width: 200px;
+    width: 250px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 20px;
     background-color: red;
@@ -21,7 +22,7 @@
 header{
     display: flexbox;
     justify-items: center;
-    height: 100vh;
+    height: 700px;
     width: 100%;
     background-image: url("../images/donation1.jpg");
     background-repeat:no-repeat;
@@ -32,13 +33,13 @@ header{
 .title{
     font-size: 50px;
     color: white;
-    margin: 0 80px 20px 80px;
+    margin: 0 0 20px 0;
     text-align: center;
     padding-top: 200px;
 }
 
 .body_text{
-    margin: 0 80px 20px 80px;
+    margin: 0 80px 100px 80px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -52,8 +53,6 @@ header{
 }
 .title2{
     font-size: 50px;
-    margin: auto;
-    margin: 200px 80px 0px 80px;
     text-align: center;
     padding-top: 130px;
 }
@@ -105,3 +104,78 @@ hr{
     width: 60%;
     background-color: rgb(56, 51, 51);
 }
+
+/*this is the donation plan section*/
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan_tab{
+    margin: 10px;
+    height: 400px;
+    width: 450px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+.icon{
+    margin: 5px;
+    height: 150px;
+    width: 98%;
+    border: none;
+}
+
+.plan_title{
+    font-weight: 550;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.plan_discription{
+    font-size: 20px;
+    padding: 20px;
+}
+
+#tab1{
+    background-color: aquamarine;
+}
+#tab2{
+    background-color: rgb(219, 166, 169);
+}
+#tab3{
+    background-color: rgb(235, 183, 71);
+}
+
+/*this is the contribution page*/
+
+.contribution{
+    display: flex;
+    align-items: center;
+    margin: 0 150px 0 150px;
+}
+
+#cont_title{
+    font-size: 50px;
+    text-align: left;
+    padding-top: 130px;
+    padding-left: 10px;
+    padding-right:10px
+}
+
+.content{
+}
+
+
+.side_pics{
+    border-radius: 10px;
+    margin: 40px;
+}
+#cont_btn{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/*this is the contribution page*/
